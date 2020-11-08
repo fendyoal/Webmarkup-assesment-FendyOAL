@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Solar Energy </title>
+    <meta name="description" content="Assignment for solar energy website">
+    <meta name="keywords" content="solar energy, solar use, explanation solar energy, contact">
+    <meta name="author" content="Fendy Ong A Lok">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" title="Solar energy" src="img/logo.png" alt="Website logo">
+        <h1 class="head1"> Solar Energy </h1>
+        <h2 class="head2"> Make the world a better place </h2>
+    </header>
+
+    <nav class="navbar">
+        <ul class="navigation">
+            <li class="nav"> <a href="index.html" class="navclass">Home </a></li>
+            <li class="nav"> <a href="howsolarworks.html" class="navclass">Information </a></li>
+            <li class="nav"> <a href="eusolar.html" class="navclass">Solar in EU </a></li>
+            <li class="nav"> <a href="contact.html" class="navclassactive">Contact </a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <header>
+            <h3> Contact </h3>
+        </header>
+        <p id="contactp1">
+            <span>Feel free to ask any questions about solar energy or the products promoted on this website.</span>
+            <span>Fill out the form below and we'll get back to you as soon as possible.</span>
+        </p>
+        <p id="contactp2">
+            <span>Address:</span>
+            <span>Vliegerlaan 41, Rotterdam</span>
+            <span>3045AV</span>
+        </p>
+    </article>
+
+    <form id="contact" action="http://i-want-solar-energy.com/testform.php" method="post">
+        <fieldset>
+            <legend>Contact</legend>
+            <label>Name:
+                <input class="forminput" type="text" name="name"/>
+            </label>
+
+            <label>E-mail:
+                <input class="forminput" type="email" name="email"/>
+            </label>
+            
+            <label>Message:
+                <textarea class="formcommentbox" name="message"></textarea>
+            </label>
+            
+            <input id="send" type="submit" value="Send">
+        </fieldset>
+    </form>
+
+    <aside id="asideprod">
+        <h3 id="solarheader3">Solar products</h3>
+        <a
+            href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PIN12220000">
+            <img id="victronaside3" title="Buy Victron Inverter" src="img/victron-inverter-smart.png"
+                alt="Victron Inverter">
+        </a>
+
+        <a
+            href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/SCC110050210">
+            <img id="victronaside3" title="Buy Victron SmartSolar" src="img/victron-smartsolar.png"
+                alt="Victron SmartSolar">
+        </a>
+
+        <a
+            href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PMP122300001">
+            <img id="victronaside3" title="Buy Victron Multiplus" src="img/victron-multiplus.png"
+                alt="Victron Multiplus">
+        </a>
+    </aside>
+
+    <p id="cookie">
+        Deze website maakt gebruik van Cookies
+    </p>
+
+    <footer id="footer">
+        &copy;2020 Fendy Ong A Lok
+    </footer>
+</body>
+
+</html>
